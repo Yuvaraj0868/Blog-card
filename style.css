@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+}
+.card{
+    width: 350px;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    box-shadow: 8px 8px 5px black;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid black;
+}
+.card-image{
+    width: 100%;
+}
+.card-image img{
+     width: 100%;
+    height: 250px;
+    padding: 20px; 
+}
+.button, .content, .end{
+    padding-left: 20px;
+}
+.button button{
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    padding: 5px;
+    font-size:1rem;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid hsl(47, 88%, 63%);
+    margin-bottom: 10px;
+}
+.button p{
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-weight: 650;
+    margin-bottom: 15px;
+}
+.content h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.content p{
+    font-size: 14px;
+    line-height: 20px;
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.end img{
+    height: 40px;
+    width: 40px;
+}
+.end p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 850;
+    color: hsl(0, 0%, 7%);
+}
